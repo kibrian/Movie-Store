@@ -6,49 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UploadMovie</title>
     <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="bootstrap files/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap files/js/bootstrap.min.js">
+    <link rel="stylesheet" href="/bootstrap files/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="/bootstrap files/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/bootstrap files/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap files/js/bootstrap.min.js">
 </head>
 <body>
-    <header>
-        <img src="../Images/images.jpg" alt="loading" width="300" height="300">
-        <section>
+    <header >
+        <img src="/Images/AdobeStock_56146647_Preview.jpeg" alt="loading"width="300">
+        <!-- <section> -->
             <h1>movie-<small class="text-muted">shop</small></h1>
-        </section>
+        <!-- </section> -->
         <p>Real and reel: Buy two get one free</p>
     </header>
     <a class="btn btn-primary"href="/index.html" role="button">Home Page</a>
 
         <form>
             <div class="container">
-                <div>
-                    <label for="Moviename" class="form-lable">Moviename</label>
-                    <input type="text" class="form-control" placeholder="moviename">
-
-                    <label for="lead Actor" class="form-lable">Lead Actor</label>
-                    <input type="text"class="form-control" placeholder="lead Actor">
+                <div class="row form-group">
+                    <div class="col">
+                        <label for="Moviename" class="form-lable">Moviename</label>
+                        <input type="text" class="form-control" name="moviename">
+                    </div>
+                    <div class="col">
+                        <label for="lead Actor" class="form-lable">Lead Actor</label>
+                        <input type="text"class="form-control" placeholder="lead Actor">
+                    </div> 
+                <div class="row form-group">
+                    <div class="col">
+                        <label for="Duration" class="form-lable">Duration</label>
+                        <input type="text" class="form-control" placeholder="duration">
+                    </div>
+                    <div class="col">
+                        <label for="movieposter" class="form-lable">Movieposter</label>
+                        <input type="text" class="form-control" placeholder="Browser...">
+                    </div>    
                 </div>
-
-                <div>
-                    <label for="Duration" class="form-lable">Duration</label>
-                    <input type="text" class="form-control" placeholder="duration">
-
-                    <label for="movieposter" class="form-lable">Movieposter</label>
-                    <input type="text" class="form-control" placeholder="Browser..." No file selected>
+                <div class="row form-group">
+                    <div class="col">
+                        <label for="Rating" class="form-lable">Rating</label>
+                        <input type="text" class="form-control" placeholder="PG">
+                    </div>
+                    <div class="col">
+                        <label for="Genre" class="form-lable">Genre</label>
+                    <input type="text" class="form-control" placeholder="Action"><br>
+                    </div>
                 </div>
-                
-                
-                <div>
-                    <label for="Rating" class="form-lable">Rating</label>
-                    <input type="text" class="form-control" placeholder="PG">
-
-                    <label for="Genre" class="form-lable">Genre</label>
-                    <input type="text" class="for-control" placeholder="Action">
-                </div>
-
-                <div class="buttons">
-                    <button class="btn btn-primary" type="button">Submit movie</button>
-                    <button class="btn btn-danger" type="button">Reset</button>
+                <div class="row form-group">
+                    <div class="col-6 max-auto d-grid">
+                        <button class="btn btn-primary" type="button">Submit</button>
+                    </div>
+                    <div class="col-6 max-auto d-grid">
+                        <button class="btn btn-danger" type="button">Reset</button>
+                    </div>
+                  </div>
                 </div>
             </div>
         </form>

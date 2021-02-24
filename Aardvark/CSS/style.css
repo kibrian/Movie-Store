@@ -1,13 +1,29 @@
 body{
     margin: 10px;
     padding: 60px;
+    background-color:gray;
 }
 
 p{
     background: lightsteelblue;
 }
+form{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 2rem;
+}
+@media screen and (max-width:300px){
+    form,
+    table,
+    header,
 
-.container{
+    h1{
+        width: 100%;
+    }
+    
+}
+
+/*.container{
     background:lightskyblue;
     display: grid;
     grid-gap: 10px;
@@ -15,14 +31,14 @@ p{
     grid-row-gap:10px;
 }
 
-@media screen and (max-width: 1200px) {
-    .menu { 
-        width: 80%;
-    }
-}
 
-@media screen and (min-width: 720px) {
-    .menu {
-        width: 20%;
-    }
+.logo-wrapperr{
+    width: 50%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-left: 20px;
 }
+.feature-icon,sicon-basic-world{
+    height: 3rem;
+    width: 3rem;
+}*/
