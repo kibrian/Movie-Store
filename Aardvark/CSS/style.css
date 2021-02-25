@@ -12,16 +12,6 @@ form{
     margin: 0px;
     margin-top: 2rem;
 }
-@media screen and (max-width:300px){
-    form,
-    table,
-    header,
-
-    h1{
-        width: 100%;
-    }
-    
-}
 
 /*.container{
     background:lightskyblue;
